@@ -2,7 +2,8 @@
 
 Electronic Health Records Website:
 Final project for web development course.
-  Application Features:
+
+Application Features:
   - Uses a php server to store database information.
   - Doctor login page.
   - Patient creation form.
