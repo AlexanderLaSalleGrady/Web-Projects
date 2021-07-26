@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Electronic Health Record Database</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.validate.min.js"></script>
+
+	<script type="text/javascript" src="check-user-jqv.js"></script>
+	<script type="text/javascript" src="check-user-ajax.js"></script>
+</head>
+
+<body>
+
+<div>
+<h3 class="center">&emsp;</h3>
+<h3 class="center">&emsp;</h3>
+<h1 class="center">Baker Clinic</h1>
+<h2 class="center" >Electronic Health Records Database</h2>
+</div>
+
+<div>
+<form id="form1" method="POST"> 
+	<table>
+		<tr>
+			<td colspan="2" class="center">Doctor, Please Login: </td> 
+		</tr>
+		<tr>
+			<td class="right" style="width:49%">Username: </td>
+			<td style="width:51%"><input type="text" name="username" id="username" maxlength="10" size="10" class="monospaced"></td>
+		</tr>
+		<tr>
+			<td class="right" style="width:49%">Password: </td>
+			<td style="width:51%"><input type="password" name="password" id="password" maxlength="10" size="10" class="monospaced"></td>
+		</tr>
+		<tr>
+			<td class="center" colspan="2"><input type="submit" value="Login" onclick="ajax1();"> </td>
+		</tr>
+	</table>		
+</form>
+</div>	
+<div class="center" id="message"><p>(New to Baker Clinic and don't have an account? <br />Please register <a href="create-account.html">here</a>!)</p></div>
+</body>
+</html>

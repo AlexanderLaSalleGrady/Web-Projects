@@ -1,0 +1,139 @@
+body {
+	color: #000000; 
+	font-size: 1em; 
+	background-color: #ffffff; 
+	text-align: left;
+}
+table.header {
+	text-align: center; 
+	border:none;
+}
+td.header {
+	text-align: center; 
+	border:none;
+}
+.center {
+	text-align: center;
+}
+fieldset {
+	width: 35%;
+	margin-left: 2%;
+}
+.hand:hover {
+	cursor: pointer;
+	color: #0000ff; 
+}
+#ajaxresult {
+	width: 55%;
+	position: fixed;
+	overflow-x: auto;
+	overflow-y: auto;
+	padding: 0.5em;
+	top: 5.2em;
+	left: 42%;
+	bottom: 2em;
+	background-color: #eeeeee;
+}
+input {
+	margin-right: 0.2em; 
+}
+input.radio {
+	margin-right: 0.2em; 
+}
+.monospaced {
+	font-family: Courier, monospace;
+}
+.wait {
+	color: #0000ff;
+}
+.success {
+	color: #00ff00;	
+}
+a {
+	color: #0000ff;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+.error {
+	color: #ff0000; 
+	margin-left: 0.2em; 
+}
+.hide{
+	display: none;
+	color: #0000ff;
+	margin-left: 1.5em; 
+}
+.hint{
+	font-size: 0.6em;
+	color: #ff00ff;
+}
+.err {
+	color: #ff0000; 
+	text-align: center;
+}
+.modified {
+	color: #0000ff;
+	text-align: center;
+}
+.deleted {
+	color: #ff0000; 
+	text-decoration: line-through;
+}
+table {
+	width: auto;
+	margin: auto; 
+	color: #000000; 
+	font-size: 1em; 
+	border: 1px solid black; 
+	border-collapse: collapse; 
+}
+th{
+	border: 1px solid black; 
+	border-collapse: collapse; 
+	padding: 0.2em;
+	margin: auto ;
+}
+td{
+	border: 1px solid black; 
+	border-collapse: collapse; 
+	padding: 0.2em;
+	margin: auto ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+legend {
+	text-align: center;
+}
+
+
+/* syntax for margin: 
+vertical horizontal
+top horizontal bottom 
+top right bottom left */
+

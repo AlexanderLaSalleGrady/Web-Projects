@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+ 
+<head>
+	<meta charset="UTF-8">
+	<title>Create a New Account</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.validate.min.js"></script>	
+	<script type="text/javascript" src="create-account-jqv.js"></script>
+	<script type="text/javascript" src="create-account-ajax.js"></script>
+</head>
+
+<body>
+
+<div>
+<h3 class="center"></h3>
+</div>
+
+<div>	
+	<form id="form2" method="POST">
+		<table>
+			<tr>
+				<td colspan="2" class="center">
+					<h4> &emsp;</h4><h4><br>Doctor, Please Create a New Account:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td class="right" style="width:49%">Username: </td>
+				<td style="width:51%"><input type="text" name="username" id="username" maxlength="10" size="10" class="monospaced"></td>
+			</tr>
+			<tr>
+				<td class="right" style="width:49%">Password: </td>
+				<td style="width:51%"><input type="password" name="password" id="password" maxlength="10" size="10" class="monospaced"></td>
+			</tr>
+			<tr>
+				<td class="right" style="width:49%">Confirm Password: </td>
+				<td style="width:51%"><input type="password" name="password2" id="password2" maxlength="10" size="10" class="monospaced"></td>
+			</tr>
+			<tr>
+				<td class="right" style="width:49%">First Name: </td>
+				<td style="width:51%"><input type="text" name="first_name" id="first_name" maxlength="20" size="10" class="monospaced"></td>
+			</tr>
+			<tr>
+				<td class="right" style="width:49%">Last Name: </td>
+				<td style="width:51%"><input type="text" name="last_name" id="last_name" maxlength="20" size="10" class="monospaced"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="center">
+					<input type="submit" value="Create Account" onclick="ajax2();"> 
+				</td>
+			</tr>
+		</table>	
+	</form>
+</div>
+<div class="center" id="message"><p>(Already have an account? Please <a href="index.html">login</a>.)</p></div> 
+</body>
+</html>
